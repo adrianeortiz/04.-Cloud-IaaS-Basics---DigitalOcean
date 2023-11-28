@@ -69,9 +69,8 @@ apt install -y nodejs npm
 
 **steps:**
 ```sh
-# secure copy files from local machine to server. Execute from project's root folder.
+# secure copy project file from local machine to server. Execute from project's root folder.
 scp bootcamp-node-project-1.0.0.tgz root@{server-ip-address}:/root
-scp package.json root@{server-ip-address}:/root
 
 ```
 
